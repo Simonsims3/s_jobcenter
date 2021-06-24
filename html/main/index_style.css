@@ -1,0 +1,157 @@
+/* Original Author: SimoN#6253 (Discord) | S_imoN (Forum CFX) */
+/* Please Respect My Work */
+/* Do Not Touch Here If You Don't Know What You Are Doing */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+*{
+    color: white;
+    font-family: Quicksand;
+    font-weight: bold;
+}
+
+body {
+
+    display: none; 
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+    overflow: hidden;
+    background-color: transparent;
+
+    width: 100%;
+    height: 100%;
+
+    user-select: none;
+
+
+}
+
+body:hover{
+    animation: pop 0.3s linear 1;
+}
+
+@keyframes pop{
+    50%  {transform: scale(1.2);}
+}
+
+#imgt{
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    width: 35vw;
+    height: 7.5vh;
+}
+
+#imgid{
+
+    margin-left: 6.5%;
+    
+    width: auto;
+    height: auto;
+
+
+
+}
+
+.container{
+
+    overflow-y: auto;
+    margin-bottom: 8%;
+    max-width: 35%;
+    
+}
+
+.job{
+    display:flex;
+
+    border-radius: 10px;
+    margin-bottom: 2.5%;
+
+    width: 35vw;
+    height: 10vh;
+    background-color: rgba(66, 66, 66, 0.8);
+
+    overflow: hidden;
+}
+
+.imgdiv{
+    height: calc(10vh - 10px);
+    width: calc(10vh - 10px);
+
+    border-radius: 10px;
+    margin: 0.5%;  
+    float: left;
+    background-color: transparent;
+
+    box-shadow: 2px 5px 16px 0px black, 5px 5px 15px 5px rgb(0,0,0);
+
+}
+
+h2{
+    color: white;
+    margin: auto;
+    margin-bottom: 0.5vh;
+
+    text-decoration: underline;
+    font-size: 1.8vh;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.42);
+
+}
+
+.textdiv{
+    color:white;
+    font-size: 1.5vh;
+    text-align: left;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.42);
+    text-overflow: ellipsis;
+
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 0.5vh;
+
+    overflow: hidden;
+
+    max-width: 70%;
+    max-height: 80%;
+    margin-left: 3%;
+    float: left;
+}
+
+.buttonapply{
+    background-color: transparent;
+    border-radius: 30px 5px 5px 30px;
+    border: none;
+
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.42);
+
+    height: 100%;
+    width: 10%;
+
+    transform: translateX(115%);
+    transition-duration: 800ms;
+
+    background-color: rgba(255,255,255,0.3);
+
+}
+
+.job:hover .buttonapply{
+    transform: translateX(0%);
+    transition-duration: 800ms;
+    height: 100%;
+    width: 10%;
+    color:white;
+}
+
+::-webkit-scrollbar {width: 20px;}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+::-webkit-scrollbar-track {background-color: transparent;}

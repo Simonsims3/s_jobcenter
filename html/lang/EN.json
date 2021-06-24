@@ -1,0 +1,10 @@
+{
+    "confirmationPhraseUnemployed":     "Are you sure you want to leave your current job ?",
+    "confirmationPhrase":               "Are you sure you want to be a",
+    "PedInfoBox":                       "~h~Press ~INPUT_CONTEXT~ to talk to the ~b~recruiter",
+    "YES":                              "YES",
+    "NO":                               "NO",
+    "notificationDesc":                 "You are now a ",
+    "notificationDescUnemployed":       "You are now unemployed",
+    "notifSubtitle":                    "Recruitment"
+}

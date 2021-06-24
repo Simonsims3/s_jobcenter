@@ -1,0 +1,10 @@
+{
+    "confirmationPhraseUnemployed":     "¿Estás seguro de que quieres dejar tu trabajo ?",
+    "confirmationPhrase":               "¿Estás seguro de que quieres convertirte en ",
+    "PedInfoBox":                       "~h~Presione ~INPUT_CONTEXT~ para hablar con el ~b~reclutador",
+    "YES":                              "SÌ",
+    "NO":                               "NO",
+    "notificationDesc":                 "Ahora eres un ",
+    "notificationDescUnemployed":       "Ahora estas desempleado",
+    "notifSubtitle":                    "Reclutamiento"
+}

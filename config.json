@@ -1,0 +1,50 @@
+{
+    "jobs":[
+        {
+            "jobLabel":     "Miner",
+            "jobName":      "miner",
+            "imagepath":    "images/miner_job_w.png",
+            "description":  "Mining rock what else did you expect from this job"
+        },
+        {
+            "jobLabel":     "Taxi",
+            "jobName":      "taxi",
+            "imagepath":    "images/taxi_job_w.png",
+            "description":  "Hahah Taxi goes vrrrrrrrrr"
+        },
+        {
+            "jobLabel":     "Farmer",
+            "jobName":      "farmer",
+            "imagepath":    "images/farmer_job_w.png",
+            "description":  "You have a green hand, the nature have no secret to you"
+        },
+        {
+            "jobLabel":     "Burger Shot",
+            "jobName":      "burgershot",
+            "imagepath":    "images/burger_job_w.png",
+            "description":  "You work at the Burger shot and sell burgers to hungry customers"
+        },
+        {
+            "jobLabel":     "Delivery Job",
+            "jobName":      "delivery",
+            "imagepath":    "images/delivery_job_w.png",
+            "description":  "Your main mission is to deliver to package to the person that ordered them! Duh"
+        },
+        {
+            "jobLabel":     "Unemployed",
+            "jobName":      "unemployed",
+            "imagepath":    "images/no_image_job_W.png",
+            "description":  "You are an useless member of the society but you are still somehow paied"
+        }
+    ],
+    "lang": "EN",
+
+    "jobCenter":"Job Center",
+
+    "pedInfo":{
+        "PedCoords": {"x":-269.13, "y":-955.86, "z":30.22},
+        "PedHeading": 205.97,
+        "PedName":"u_m_y_chip"
+    }
+    
+}
