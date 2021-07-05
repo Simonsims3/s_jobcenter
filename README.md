@@ -24,9 +24,9 @@ Any help to improve it is welcome !
 I'm Simon, I'm 20 yo and I am from Belgium, I speak French and English.
 I've been developing on Fivem since March 2021, because I was just bored of quarantine.
 
-__**My Discord:**__         @SimoN#6253
-__**My CFX Account:**__     S_imoN
-__**My Tebex:**__           https://s-imon.tebex.io/
+- __**My Discord:**__         @SimoN#6253
+- __**My CFX Account:**__     S_imoN
+- __**My Tebex:**__           https://s-imon.tebex.io/
 
 
 # Feature
