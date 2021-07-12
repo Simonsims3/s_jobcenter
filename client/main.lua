@@ -78,7 +78,7 @@ end)
 
 
 Citizen.CreateThread(function()
-    local info_blip = AddBlipForCoord(-269.13, -955.8, 30.22)
+    local info_blip = AddBlipForCoord(pedConfig.PedCoords.x, pedConfig.PedCoords.y, pedConfig.PedCoords.z)
     SetBlipSprite(info_blip, 351)
     SetBlipDisplay(info_blip, 4)
     SetBlipScale(info_blip, 1.0)
