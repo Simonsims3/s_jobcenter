@@ -26,7 +26,7 @@ end)
 Citizen.CreateThread(function()
     RequestModel(jobCenterPedHash)
     while not HasModelLoaded(jobCenterPedHash) do Citizen.Wait(1) end
-    jobPed = CreatePed(4, jobCenterPedHash, jobCenterCoords, jobCenterHeading, true, true)
+    jobPed = CreatePed(4, jobCenterPedHash, jobCenterCoords, jobCenterHeading, false, false)
     
     AddTextEntry('CallText', configLang.PedInfoBox)
 
