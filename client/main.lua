@@ -45,7 +45,8 @@ Citizen.CreateThread(function()
             EndTextCommandDisplayHelp(0, false, false, -1)
             if IsControlPressed(0, 51) then
                 SendNUIMessage({
-                    type = 'openMenu'
+                    type = 'openMenu',
+                    ressourceName = GetCurrentResourceName()
                 })
                 SetNuiFocus(true, true)
                 TaskStartScenarioInPlace(GetPlayerPed(-1), "WORLD_HUMAN_CLIPBOARD", 0, false)
