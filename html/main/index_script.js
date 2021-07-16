@@ -6,6 +6,7 @@ window.addEventListener('message', function(e){
     var lua = e.data;
     if(lua.type === 'openMenu'){
         $('body').css('display', 'flex');
+        ressourceName = lua.ressourceName
     } else if(lua.type === 'closeMenu'){
         $('body').css('display', 'none');
     };
@@ -13,7 +14,7 @@ window.addEventListener('message', function(e){
 
 document.addEventListener('keydown', (e) => {
     if(e.key === 'Escape'){
-        $.post('https://s_jobcenter/closemenu', JSON.stringify({}));
+        $.post('https://'+ ressourceName +'/closemenu', JSON.stringify({}));
         $('body').css('display', 'none');
     };
 });
@@ -33,4 +34,5 @@ function confirm(job, jobLabel){
     document.location.href = "../confirm/confirm.html";
     sessionStorage.setItem("JobToConfirm", job);
     sessionStorage.setItem("JobToConfirmLabel", jobLabel);
+    sessionStorage.setItem("ressourceName", ressourceName);
 }
