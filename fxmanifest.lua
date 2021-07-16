@@ -11,7 +11,7 @@ authors {
 
 
 description 'Job Center With An UI And A Job Confirmation, For now only compatible with ESX'
-version '1.0'
+version '1.0.1'
 
 
 client_script 'client/main.lua'
