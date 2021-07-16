@@ -4,6 +4,7 @@
 
 var jobToConfirm = sessionStorage.getItem("JobToConfirm");
 var jobToConfirmLabel = sessionStorage.getItem("JobToConfirmLabel");
+var ressourceName = sessionStorage.getItem("ressourceName");
 
 let config_confirm = $.getJSON('../../config.json',(e)=>{
     var language = '../lang/'+ e.lang + '.json'
@@ -28,13 +29,13 @@ let config_confirm = $.getJSON('../../config.json',(e)=>{
 
 
 function setJob(jobName, jobLabel){
-    $.post(`https://s_jobcenter/button`, JSON.stringify({jobName:jobName,jobLabel:jobLabel}));
+    $.post(`https://`+ ressourceName +`/button`, JSON.stringify({jobName:jobName,jobLabel:jobLabel}));
     $('#container').css('display', 'none');
     document.location.href = "../main/index.html";
 }
 
 function cancel(){
-    $.post(`https://s_jobcenter/closemenu`, JSON.stringify({}));
+    $.post(`https://`+ ressourceName +`/closemenu`, JSON.stringify({}));
     $('#container').css('display', 'none');
     document.location.href = "../main/index.html";
 };
