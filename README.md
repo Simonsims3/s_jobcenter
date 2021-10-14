@@ -1,5 +1,7 @@
 # s_jobcenter
 
+## NO LONGER SUPPORTING THIS SCRIPT
+
 ## About this script
 
 s_jobcenter is the first script with nui made entierly by me
